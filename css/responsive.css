@@ -1,0 +1,600 @@
+@media only screen and (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+@media only screen and (min-width: 1400px) {
+  .container {
+    max-width: 1320px;
+  }
+
+  /* About Section */
+  
+}
+
+/* Max-width  */
+  @media only screen and (max-width: 1024px) {
+    .head-ul-1 li span {
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 24px;
+    }
+    .head-ul-2 p {
+      font-size: 13px;
+      padding-right: 10px;
+    }
+    .nav-items {
+      color: #101115;
+      font-size: 1rem;
+      font-weight: 700;
+      padding: 15px 22px;
+      text-transform: capitalize;
+    }
+    .btn-grp > button {
+      font-size: 14px;
+    }
+    /* Banner -section */
+    .banner-container {
+      padding-top: 60px;
+      display: flex;
+      align-items: start;
+      flex-direction: column;
+      gap: 20px;
+      /* align-items: start; */
+    }
+    .column-1 {
+      width: 80%;
+    }
+    .column-1:nth-child(2) {
+      display: block;
+      align-items: center;
+      text-align: center;
+    }
+    /* ----------------------------------------------------------------- */
+    /* -------------------------Brand Sections------------------------- */
+    .brand-container {
+      flex-wrap: wrap;
+    }
+    .column-2:nth-child(4) {
+      display: none;
+    }
+    .column-2:nth-child(5) {
+      display: none;
+    }
+  /* ----------------------------------------------------------------- 
+                                Popular Category
+         ----------------------------------------------------------------- */
+  .popular-container {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .column-3 {
+    width: 30%;
+  }
+
+  /* Feature course */
+  .feature-container{
+    flex-wrap: wrap;
+  }
+  .column-4{
+    width: 45%;
+  }
+
+  /* About Section */
+  #About::before{
+    content: none;
+    border: none;
+  }
+  .about-container{
+    flex-direction: column;
+  }
+  .column-5{
+    width: 100%;
+  }
+
+  /* -------------------Instructors------------------- */
+    .ins-container{
+      gap: 0px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .col-ins{
+      width: 30%;
+    }
+
+    /* -----------------Feedback Sections----------------- */
+    #feedback::before{
+      border: none;
+      content: none;
+    }
+    .feedback-container{
+      padding: 0px;
+    }
+    .column-7{
+      width: 50%;
+    }
+    .column-7
+    .hor-card{
+      width: 100%;
+    }
+    /*--------------------- Blog-post ---------------------*/
+    .blogpost-container{
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .column-8{
+      width: 45%;
+    }
+    /* =--------------------------------------------------- 
+                    Golas of edukon            
+     ---------------------------------------------------- */
+     .goals-container{
+      padding: 0px;
+      gap: 0px;
+     }
+     .archive-inner{
+      padding: 25px;
+     }
+     /* -----------------------------------------
+              Footer Sections
+     ------------------------------------------- */
+     .shapes{
+      display: none;
+     }
+     .header-footer{
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+     }
+
+     .col-foot{
+      width: 100%;
+     }
+     .col-foot h2{
+      width: 100%;
+      text-align: center;
+      padding-bottom: 25px;
+
+     }
+     .foot-main{
+      flex-wrap: wrap;
+     }
+     .foot-column{
+      width: 50%;
+     }
+
+}
+
+@media only screen and (max-width: 768px) {
+  .header-top {
+    display: none;
+  }
+  .header-wrapper {
+    position: relative;
+  }
+  .nav-items {
+    display: none;
+  }
+  .hamberger-menu {
+    display: block;
+    position: absolute;
+    right: 40px;
+    top: 10px;
+    font-size: 32px;
+  }
+  .btn-grp {
+    margin-right: 70px;
+  }
+  /* Banner -section */
+  .banner-container {
+    padding-top: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .column-1 {
+    width: 100%;
+  }
+  .column-1:nth-child(2) {
+    display: block;
+    align-items: center;
+    text-align: center;
+  }
+  .banner-head {
+    font-size: 35px;
+    width: 100%;
+  }
+  .banner-content {
+    font-size: 19px;
+  }
+  /* ----------------------------------------------------------------- */
+  /* -------------------------Brand Sections------------------------- */
+
+  .brand-container {
+    flex-wrap: wrap;
+  }
+  .column-2:nth-child(4) {
+    display: none;
+  }
+  .column-2:nth-child(5) {
+    display: none;
+  }
+  .column-2:nth-child(3) {
+    display: none;
+  }
+  /* ----------------------------------------------------------------- 
+                                Popular Category
+         ----------------------------------------------------------------- */
+  .popular-container {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .column-3 {
+    width: 30%;
+  }
+  .pop-btn {
+    font-size: 14px;
+    padding: 10px 30px;
+  }
+  /* -------------Feature Course---------------------- */
+  /* Feature course */
+  .feature-container{
+    flex-wrap: wrap;
+    gap:0px !important;
+  }
+  .column-4{
+    width: 50%;
+  }
+  /* ---------------------------Instructors--------------------------- */
+    .ins-container{
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .col-ins{
+      width: 50%;
+    }
+   /* -----------------Feedback Sections----------------- */
+   .feedback-container{
+    gap: 0px;
+    flex-wrap: wrap;
+   }
+   .column-7{
+    width: 100%;
+   }
+   .hor-card{
+    width: 100%;
+   }
+   .feed-thumb{
+      padding: 0px 12px;
+      margin: 0px 10px;
+   }
+
+       /*--------------------- Blog-post ---------------------*/
+       .blogpost-container{
+        gap: 10px;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+      .column-8{
+        width: 48%;
+      }
+      
+      .post-thumb{
+        width: 100%;
+        overflow: hidden;
+      }
+      .post-thumb img{
+        overflow: hidden;
+        max-width: 300px;
+      }
+      /* =--------------------------------------------------- 
+                Blog And Post
+      --------------------------------------------------- */
+      #goals > .section-header{
+        margin-bottom: 0px;
+      }
+      .goals-container{
+        flex-wrap: wrap;
+        gap: 0px;
+        padding: 0px;
+      }
+      .column-9{
+        width: 50%;
+      }
+      .archive-part{
+        flex-wrap: wrap;
+      }
+      .column-sub-9{
+        width: 100%;
+      }
+}
+
+
+@media only screen and (max-width: 425px) {
+  img {
+    max-width: 100%;
+  }
+  .header-top {
+    display: none;
+  }
+  .header-wrapper {
+    position: relative;
+  }
+  .nav-items {
+    display: none;
+  }
+  .hamberger-menu {
+    display: block;
+    position: absolute;
+    right: 40px;
+    top: 10px;
+    font-size: 32px;
+  }
+  .btn-grp {
+    display: none;
+  }
+  /* Banner -section */
+  .banner-container {
+    padding-top: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .column-1 {
+    width: 100%;
+  }
+  .column-1:nth-child(2) {
+    display: block;
+    align-items: center;
+    text-align: center;
+  }
+  .banner-head {
+    font-size: 20px;
+    width: 100%;
+  }
+  .banner-content {
+    font-size: 16px;
+  }
+  .input-btn input {
+    width: 100%;
+  }
+  .banner-ul {
+    flex-wrap: wrap;
+    gap: 0px;
+  }
+  .banner-ul > p {
+    font-size: 20px;
+  }
+  .banner-ul > li:nth-child(1) {
+    padding-right: 70%;
+    margin-bottom: 15px;
+  }
+  .banner-ul > li > a {
+    font-size: 14px;
+    font-weight: 700;
+    padding: 5px;
+  }
+  /* ----------------------------------------------------------------- 
+                                Brand Sections
+         ----------------------------------------------------------------- */
+  .brand-container {
+    padding: 0px 12px;
+    flex-wrap: wrap;
+  }
+  .column-2:nth-child(4) {
+    display: none;
+  }
+  .column-2:nth-child(5) {
+    display: none;
+  }
+  .column-2:nth-child(3) {
+    display: none;
+  }
+  .column-2:nth-child(2) {
+    display: none;
+  }
+  .column-2:nth-child(6) {
+    display: none;
+  }
+  /* ----------------------------------------------------------------- 
+                                Popular Category
+         ----------------------------------------------------------------- */
+  .popular-container {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .column-3 {
+    width: 100%;
+  }
+  .section-header > .banner-hea {
+    font-size: 24px;
+  }
+  .section-header > .sub-title {
+    color: #f16126;
+    font-size: 1.125rem;
+    font-weight: 500;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    -webkit-transform: translateY(-8px);
+    transform: translateY(-8px);
+  }
+    /* ---------------------Feature course--------------------- */
+    .feature-container{
+        flex-wrap: wrap;
+        gap:0px !important;
+      }
+      .column-4{
+        width: 100%;
+      }
+
+    /* About Section  */
+    .about-container{
+      flex-direction: column;
+      flex-wrap: wrap;
+    }
+    .column-5{
+      width: 100%;
+    }
+    
+    .column-5 > .colum-heading > h1{
+      font-size: 24px;
+
+    }
+    .column-5 > .colum-heading > p{
+        font-size: 18px;
+    }
+
+      /* ---------------------------Instructors--------------------------- */
+      .ins-container{
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 0px;
+      }
+      .col-ins{
+        width: 100%;
+      }
+      /* #instructors, .section-header .sub-title{
+        font-size: 14px;
+      } */
+
+         /* -----------------Feedback Sections----------------- */
+   .feedback-container{
+    gap: 0px;
+    flex-wrap: wrap;
+   }
+   .column-7{
+    width: 100%;
+   }
+   .hor-card{
+    width: 100%;
+   }
+   .feed-thumb{
+      margin: 0px 10px;
+   }
+  /*--------------------- Blog-post ---------------------*/
+  .blogpost-container{
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .column-8{
+    width: 100%;
+  }
+  
+  .post-thumb{
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+  }
+  .post-thumb img{
+    overflow: hidden;
+  }
+  .post-content h4{
+    font-size: 20px;
+    margin-bottom: 8px;
+  }
+  .post-content p{
+    font-size: 16px;
+  }
+  /* =--------------------------------------------------- */
+      /* =--------------------------------------------------- 
+                Blog And Post
+      --------------------------------------------------- */
+      #goals > .section-header{
+        margin-bottom: 0px;
+      }
+      .goals-container{
+        flex-wrap: wrap;
+        gap: 0px;
+        padding: 0px;
+      }
+      .count-inner{
+        padding: 5px 30px;
+      }
+      .count-content h2 span{
+        font-size: 20px;
+        font-weight: 900;
+      }
+      .count-content p{
+          text-align: center;
+          font-size: 14px;
+      }
+
+      .column-9{
+        width: 100%;
+      }
+      .archive-part{
+        flex-wrap: wrap;
+      }
+      .column-sub-9{
+        width: 100%; 
+      }
+      .archive-inner{
+        display: flex;
+        flex-direction: column;
+      }
+
+      .archive-thumb{
+        position: static;
+        width: 100%;
+      }
+      .archive-content{
+        width: 100%;
+      }
+      .archive-content h4{
+        font-size: 20px;
+        margin-bottom: 8px;
+    }
+    .archive-content p{
+        font-size: 16px;
+        margin-bottom: 25px;
+    }      
+
+         /* -----------------------------------------
+              Footer Sections
+     ------------------------------------------- */
+     .shapes{
+      display: none;
+     }
+     .header-footer{
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+     }
+
+     .col-foot{
+      width: 100%;
+     }
+     .col-foot h2{
+      font-size: 20px;
+      width: 100%;
+      text-align: center;
+      padding-bottom: 25px;
+
+     }
+     .foot-main{
+      flex-wrap: wrap;
+     }
+     .foot-column{
+      width: 100%;
+     }
+     .footer-title h3{
+      font-size:20px;
+      color: #fff;
+      
+  }
+}
